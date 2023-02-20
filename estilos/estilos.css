@@ -1,0 +1,104 @@
+
+  .datos{
+    width: 20%;
+    background: none;
+    border-radius: 2%;
+  }
+  .datos>img{
+    background: none;
+  }
+  .contacto{
+    background-color: #6692a0;
+    box-shadow: 4px 2px 2px #2c3033;
+    border: #2c3033;
+    color:#2c3033;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .proyecto{
+    width: 80%;
+  }
+  .control{
+    background-color: rgb(43, 41, 41);
+  }
+  .enlace>a{
+    text-decoration: none;
+    color: black;
+    font: bold;
+  }
+  .icono{
+    width: 8%;
+  
+  }
+  .redes{
+    position: fixed;
+   
+    
+  }
+  .certificado{
+    background: none;
+    border-radius: 8%;
+    box-shadow: 10px 5px 5px #444343;
+    padding: 1%;
+    margin: 1%;
+  }
+  .certificado :hover{
+   padding: 3%;
+  }
+  .logo{
+    width: 8%;
+    
+  }
+  .por{
+    display: block;
+  }
+  .foto{
+   margin-left: 5%;
+  }
+  h2{
+    font-family: 'Dancing Script', cursive;
+  }
+  .info{
+    display: inline-grid;
+    box-shadow: 10px 5px 5px  #616161;
+  }
+  .objetivo{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+  }
+  .obj{
+    margin-left: 10%;
+  }
+  .escuela{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #616161;
+    color: white;
+  }
+  .habilidades{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  
+  }
+  body {
+    display: flex;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: #899899;
+  }
+  @media (max-width: 640px){
+  body{
+    display: block;
+  }
+    .datos{
+      width: auto;
+    } 
+ 
+    .proyecto{
+      width: auto;
+    }
+    .habilidades{
+   
+      padding-top: 8%;
+     }
+  }
